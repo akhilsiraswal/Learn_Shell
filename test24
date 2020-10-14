@@ -1,0 +1,10 @@
+#!/bin/bash
+# using pattern matching
+
+if [[ $USER == r* ]]
+then
+	echo "HELLO $USER"
+else
+	echo "Sorry, I don't know you"
+fi
+
